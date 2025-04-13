@@ -6,14 +6,24 @@ import Pricing from "./components/Pricing/Pricing";
 import ResultChart from "./components/ResultChart/ResultChart";
 import StudentsChart from "./components/StundentsChart/StudentsChart";
 import axios from "axios";
+import MyCompontent from "./components/MyCompontent/MyCompontent";
+ 
+
+ 
+
+
+
 
 const promiseData = fetch('pricing.json').then(res=>res.json())
 
 const promiseMarks =  axios.get('sutdentMark.json')
 
 function App() {
+  
+
   return (
     <>
+  
       <header>
         <Navbar></Navbar>
       
@@ -34,9 +44,13 @@ function App() {
 
 
       </main>
-      <footer></footer>
+      <footer>
+ 
+      </footer>
     </>
   );
+  
 }
+
 
 export default App;
