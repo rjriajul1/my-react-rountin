@@ -21,7 +21,7 @@ const ResultChart = () => {
         <div className='md:flex flex-wrap justify-center '>
 
             <BarChart width={500} height={500} data={students}>
-                <XAxis dataKey={name}></XAxis>
+                <XAxis dataKey={"name"}></XAxis>
                 <YAxis></YAxis>
                 <Tooltip></Tooltip>
                 <Bar dataKey={'math'}  barSize={40} fill='blue'></Bar>
@@ -29,7 +29,7 @@ const ResultChart = () => {
                 <Bar dataKey={'science'} barSize={40} fill='green'></Bar>
             </BarChart>
             <LineChart width={500} height={500} data={students}>
-                <XAxis dataKey={name}></XAxis>
+                <XAxis dataKey={"name"}></XAxis>
                 <YAxis></YAxis>
                 <Tooltip></Tooltip>
                 <Line dataKey={"math"} stroke='red'></Line>
