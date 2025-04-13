@@ -1,51 +1,53 @@
 [
-    {
-      "id": 1,
-      "name": "Basic",
-      "price": 29,
-      "duration": "per month",
-      "features": [
-        "Gym access during staffed hours",
-        "Locker room & shower access",
-        "1 guest pass/month",
-        "Free Wi-Fi",
-        "Fitness orientation session",
-        "Access to cardio and weight equipment"
-      ],
-      "mostPopular": false
-    },
-    {
-      "id": 2,
-      "name": "Standard",
-      "price": 49,
-      "duration": "per month",
-      "features": [
-        "24/7 gym access",
-        "All group fitness classes included",
-        "Free monthly fitness assessment",
-        "2 guest passes/month",
-        "Locker room & personal locker",
-        "Access to mobile workout app",
-        "Discounts on supplements & apparel"
-      ],
-      "mostPopular": true
-    },
-    {
-      "id": 3,
-      "name": "Premium",
-      "price": 79,
-      "duration": "per month",
-      "features": [
-        "Everything in Standard",
-        "Unlimited guest passes",
-        "4 personal training sessions/month",
-        "Sauna & steam room access",
-        "Body composition analysis",
-        "Nutrition consultation",
-        "Priority booking for classes",
-        "VIP lounge access"
-      ],
-      "mostPopular": false
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": "$90",
+    "duration": "6 months",
+    "description": "Perfect for beginners who want essential gym access without extras.",
+    "features": [
+      "Gym access during staffed hours",
+      "Locker room & shower access",
+      "1 guest pass/month",
+      "Free Wi-Fi",
+      "Fitness orientation session",
+      "Access to cardio and weight equipment"
+    ],
+    "mostPopular": false
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": "$180",
+    "duration": "6 months",
+    "description": "Best value for regular gym-goers with 24/7 access and classes included.",
+    "features": [
+      "24/7 gym access",
+      "All group fitness classes included",
+      "Free monthly fitness assessment",
+      "2 guest passes/month",
+      "Locker room & personal locker",
+      "Access to mobile workout app",
+      "Discounts on supplements & apparel"
+    ],
+    "mostPopular": true
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": "$330",
+    "duration": "6 months",
+    "description": "All-inclusive plan with personal training, wellness support, and VIP perks.",
+    "features": [
+      "Everything in Standard",
+      "Unlimited guest passes",
+      "4 personal training sessions/month",
+      "Sauna & steam room access",
+      "Body composition analysis",
+      "Nutrition consultation",
+      "Priority booking for classes",
+      "VIP lounge access"
+    ],
+    "mostPopular": false
+  }
+]

@@ -13,7 +13,7 @@ const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const links = navLinks.map((route) => <Lilnk route={route}></Lilnk>);
+  const links = navLinks.map((route) => <Lilnk key={route.id} route={route}></Lilnk>);
 
   return (
     <nav className="flex justify-between mx-10 mt-5 ">
